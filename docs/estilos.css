@@ -1,6 +1,6 @@
 main {
-    border: 1px solid red;
-    height: 620px;
+    border: 1px solid blueviolet;
+    height: 630px;
     width: 1100px;
     margin: auto;
 }
@@ -8,18 +8,43 @@ main {
 header{
     border: 1px solid blue;
     height: 100px;
+    
 }
 
 nav{
-    border: 1px solid green;
+    border: 1px solid blueviolet;
     height: 80px;
+    margin: 5px 0px 5px 0px;
 }
 section{
-  border:solid red ;
+  border:solid blue ;
   height: 363px;
+ 
    } 
 
 footer{
-    border: 1px solid green;
+    border: 1px solid blueviolet;
     height: 80px;
    }
+
+aside{
+    border: 1px solid blueviolet;
+    display: 80px;
+    height: 340px;
+    width: 400px;
+    float: left;
+   }
+article{
+    border: 1px solid blueviolet;
+    height: 111px;
+    width: 670px;
+    float: right;
+}
+
+ul li{
+   
+    border: 1px solid blue;
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
