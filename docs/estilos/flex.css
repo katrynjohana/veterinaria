@@ -1,0 +1,13 @@
+#contenedor{
+ border: 1px solid red;
+ display: flex;
+ flex-direction: row ;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.item{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+}
